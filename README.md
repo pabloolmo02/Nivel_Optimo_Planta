@@ -31,7 +31,6 @@ Nivel_Optimo_Planta/
 ├── main.py                          # Script principal
 ├── plantas.txt                      # Lista de plantas a consultar
 ├── niveles_optimos_generados.json   # Archivo generado con los resultados
-└── README.md                        # Documentación del proyecto
 
 ⚙️ Requisitos
 
