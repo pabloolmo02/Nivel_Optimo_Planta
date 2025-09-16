@@ -3,7 +3,7 @@ import json
 import time
 
 # Configura tu clave de API
-client = openai.OpenAI(api_key="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")
+client = openai.OpenAI(api_key="###")
 
 # Lee el archivo de plantas
 with open("plantas.txt", "r", encoding="utf-8") as f:
@@ -71,3 +71,4 @@ with open("niveles_optimos_generados.json", "w", encoding="utf-8") as f:
     json.dump(niveles_optimos, f, indent=4, ensure_ascii=False)
 
 print("✅ Datos guardados en niveles_optimos_generados.json")
+
